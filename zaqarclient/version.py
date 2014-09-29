@@ -25,5 +25,4 @@ try:
 except pkg_resources.DistributionNotFound:
     # No PKG-INFO? We're probably running from a checkout, then. Let pbr do
     # its thing to figure out a version number.
-    import pbr.version
-    version_string = str(pbr.version.VersionInfo('python-zaqarclient'))
+    version_string = "REDHATZAQARCLIENTVERSION"
